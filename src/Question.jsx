@@ -3,7 +3,7 @@ import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 
 
 
-const Question = ({ title, info }) => {
+const SingleQuestion = ({ title, info }) => {
     const [showInfo, setShowInfo] = useState(false)
 
     return <article className='question'>
@@ -15,4 +15,4 @@ const Question = ({ title, info }) => {
     </article>
 }
 
-export default Question
+export default SingleQuestion
