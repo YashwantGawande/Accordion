@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
-import SingleQuestion from "./Question";
+import SingleQuestion from "./SingleQuestion";
 function App() {
   const [questions, setQuestions] = useState(data);
 
